@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Timer",
+  "description": "awwsome timer",
+  "version": "1.0",
+  "icons": {
+    "16": "1.png",
+    "48": "1.png",
+    "128": "1.png"
+  },
+  "action": {
+    "default_icon": {
+      "26": "1.png",
+      "48": "1.png",
+      "128": "1.png"
+    },
+    "default_title": "The Timer",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
