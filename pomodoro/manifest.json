@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro",
+  "description": "awwsome Pomodoro",
+  "version": "1.0",
+  "icons": {
+    "16": "download.png",
+    "48": "download.png",
+    "128": "download.png"
+  },
+  "action": {
+    "default_icon": {
+      "26": "download.png",
+      "48": "download.png",
+      "128": "download.png"
+    },
+    "default_title": "The Pomodoro",
+    "default_popup": "popup/popup.html"
+  }
+  // "options_page": "options.html",
+  // "permissions": ["storage", "alarms", "notifications"],
+  // "background": {
+  //   "service_worker": "background.js"
+  // }
+}
